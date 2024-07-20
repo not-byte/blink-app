@@ -19,7 +19,7 @@
         src: url('../fonts/inter-v13-latin_latin-ext-800.woff2') format('woff2');
     }
 
-    p {
-        @apply font-display;
+    body, html {
+        @apply font-display bg-rasin-black w-screen h-screen;
     }
 }
