@@ -15,6 +15,9 @@ export default {
         "slate-blue": "hsla(263, 100%, 68%, 1)",
         "ultra-violet": "hsla(254, 31%, 36%, 1)",
         "rasin-black": "hsla(240, 7%, 13%, 1)",
+      },
+      backgroundImage: {
+        'main-background': "url('/public/img/Background.svg')"
       }
     },
   },
