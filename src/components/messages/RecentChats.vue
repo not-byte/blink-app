@@ -29,13 +29,46 @@
         </div>
       </div>
       <div class="pb-3 flex justify-between">
-        <img class="h-[64px] w-[64px]" src="https://cdn.yshop.pl/files/ypQSb.png" alt="">
+        <img class="h-[64px] w-[64px]" src="https://cdn.yshop.pl/files/3BUMe.png" alt="">
         <div class="p-2 px-4">
-          <h2 class="font-semibold text-xl">Henry Norton</h2>
-          <h3>(You) gonna try and fix asap</h3>
+          <h2 class="font-semibold text-xl">Janine Taylor</h2>
+          <h3>they are the default ones th...</h3>
         </div>
         <div class="">
           <p>13:39</p>
+          <!--        TODO Icon-->
+        </div>
+      </div>
+      <div class="pb-3 flex justify-between">
+        <img class="h-[64px] w-[64px]" src="https://cdn.yshop.pl/files/ypQSb.png" alt="">
+        <div class="p-2 px-4">
+          <h2 class="font-semibold text-xl">Brandon Williams</h2>
+          <h3>Let me know what's new wi...</h3>
+        </div>
+        <div class="">
+          <p>10:11</p>
+          <!--        TODO Icon-->
+        </div>
+      </div>
+      <div class="pb-3 flex justify-between">
+        <img class="h-[64px] w-[64px]" src="https://cdn.yshop.pl/files/jx31Q.png" alt="">
+        <div class="p-2 px-4">
+          <h2 class="font-semibold text-xl">Jason Parker</h2>
+          <h3>(You) yea i might do that at...</h3>
+        </div>
+        <div class="">
+          <p>21:23</p>
+          <!--        TODO Icon-->
+        </div>
+      </div>
+      <div class="pb-3 flex justify-between">
+        <img class="h-[64px] w-[64px]" src="https://cdn.yshop.pl/files/X2SXZ.png" alt="">
+        <div class="p-2 px-4">
+          <h2 class="font-semibold text-xl">Marceline Davis</h2>
+          <h3>you can only use it to gener...</h3>
+        </div>
+        <div class="">
+          <p>17:06</p>
           <!--        TODO Icon-->
         </div>
       </div>
