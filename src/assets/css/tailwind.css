@@ -5,21 +5,21 @@
 @layer base {
     @font-face {
         font-display: swap;
-        font-family: 'Inter';
+        font-family: "Inter";
         font-style: normal;
         font-weight: 400;
-        src: url('../fonts/inter-v13-latin_latin-ext-regular.woff2') format('woff2');
+        src: url("../fonts/inter-v13-latin_latin-ext-regular.woff2") format("woff2");
     }
 
     @font-face {
         font-display: swap;
-        font-family: 'Inter';
+        font-family: "Inter";
         font-style: normal;
         font-weight: 800;
-        src: url('../fonts/inter-v13-latin_latin-ext-800.woff2') format('woff2');
+        src: url("../fonts/inter-v13-latin_latin-ext-800.woff2") format("woff2");
     }
 
-    body, html {
+    body {
         @apply font-display bg-rasin-black w-screen h-screen;
     }
 }

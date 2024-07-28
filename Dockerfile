@@ -1,11 +1,27 @@
-FROM node:latest as build-stage
+# Build a production distribution
+
+FROM cgr.dev/chainguard/node:latest AS setup
+
 WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY ./ .
+
+COPY --chown=node:node package*.json .
+
+RUN npm install --clean
+
+COPY --chown=node:node . .
+
 RUN npm run build
 
-FROM nginx as production-stage
-RUN mkdir /app
-COPY --from=build-stage /app/dist /app
-COPY nginx.conf /etc/nginx/nginx.conf
+CMD [ "echo", "TEST" ]
+
+# Setup proxy for deployment
+
+FROM nginx as production
+
+LABEL authors="botprzemek"
+
+ENV NODE_ENV=production
+
+COPY --chown=node:node --from=setup /app/dist /app
+
+COPY --chown=node:node nginx.conf /etc/nginx/nginx.conf
