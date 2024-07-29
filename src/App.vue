@@ -1,15 +1,14 @@
 <script lang="ts" setup>
+import NavigationBar from "@/components/navigation/NavigationBar.vue";
+
 import { RouterView } from "vue-router";
-import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-    <main class="flex justify-center items-center h-screen text-white">
-        <section
-            class="h-screen w-screen bg-background px-6 py-4 md:h-[932px] md:w-[430px] bg-main-background md:border md:border-white md:border-opacity-10 md:rounded-3xl"
-        >
-            <RouterView />
-            <Footer />
-        </section>
+    <main
+        class="relative max-x-[200px] max-h-[960px] flex flex-col items-center gap-6 p-9 rounded-3xl overflow-hidden bg-background bg-center bg-cover border border-white/10"
+    >
+        <RouterView />
+        <NavigationBar />
     </main>
 </template>

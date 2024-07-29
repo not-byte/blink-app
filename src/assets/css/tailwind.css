@@ -8,7 +8,7 @@
         font-family: "Inter";
         font-style: normal;
         font-weight: 400;
-        src: url("../fonts/inter-v13-latin_latin-ext-regular.woff2") format("woff2");
+        src: url("../font/inter-v13-latin_latin-ext-regular.woff2") format("woff2");
     }
 
     @font-face {
@@ -16,10 +16,17 @@
         font-family: "Inter";
         font-style: normal;
         font-weight: 800;
-        src: url("../fonts/inter-v13-latin_latin-ext-800.woff2") format("woff2");
+        src: url("../font/inter-v13-latin_latin-ext-800.woff2") format("woff2");
     }
 
     body {
-        @apply font-display bg-rasin-black w-screen h-screen;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-content: center;
+        color: white;
+        user-select: none;
+        overflow: hidden;
+        @apply bg-rasin-black font-display;
     }
 }
