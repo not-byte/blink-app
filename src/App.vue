@@ -6,7 +6,7 @@ import { RouterView } from "vue-router";
 
 <template>
     <main
-        class="relative min-w-[400px] aspect-[4/9] flex flex-col items-center gap-6 p-9 rounded-3xl overflow-hidden bg-background bg-center bg-cover border border-white/10"
+        class="relative w-[28rem] aspect-[4/9] flex flex-col items-center gap-6 p-9 rounded-3xl overflow-hidden bg-background bg-center bg-cover border border-white/10"
     >
         <RouterView />
         <NavigationBar />

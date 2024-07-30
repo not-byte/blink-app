@@ -90,7 +90,7 @@ const users = [
 <template>
     <section class="w-full flex flex-col gap-3">
         <h2 class="text-2xl font-semibold">Recent chats</h2>
-        <article class="overflow-y-scroll">
+        <article class="overflow-visible">
             <aside
                 v-for="user in users"
                 :key="user.fullname"

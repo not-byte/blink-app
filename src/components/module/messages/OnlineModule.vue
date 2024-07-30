@@ -36,7 +36,7 @@ const users = [
 <template>
     <section class="flex flex-col gap-3">
         <h2 class="text-2xl font-semibold">Online</h2>
-        <aside class="flex gap-3 overflow-y-scroll">
+        <aside class="flex gap-3 overflow-x-hidden no-scrollbar">
             <img
                 v-for="user in users"
                 :key="user.avatar"
