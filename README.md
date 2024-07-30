@@ -47,4 +47,4 @@ npm run test:unit
 npm run lint
 ```
 
-!(Technologies)[./.github/readme/technologies.svg]
+![Technologies](./.github/readme/technologies.svg)
