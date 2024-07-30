@@ -1,0 +1,17 @@
+name: Automatically assign User that opened issue or pull requested from repository
+on:
+  issues:
+    types: [ opened ]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Assign issue for User
+        uses: pozil/auto-assign-issue@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          assignees: ${{ github.actor }}
+          numOfAssignee: 1
