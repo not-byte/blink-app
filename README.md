@@ -2,8 +2,9 @@
 
 # BLINK
 
-The Blink project aims to leverage web3 technology and provide easy access and communication with people around the
-world 🗺️.
+The Blink project 👀 is a Decentralized Communicator, that aims to leverage WEB3 technology and provide easy access and
+communication with people around the world 🗺️ Written in Rust 🦀, Vue.js+TS, Pinia 🍍 and TailwindCSS 🍃 with the Dfinity
+CDK for compiling.
 
 > [!Caution]
 > <span id="status">Project is still work in progress</span>
@@ -14,28 +15,21 @@ world 🗺️.
 
 ![Navigation](./.github/readme/navigation.svg)
 
-Summary
-About
-Version
-
-Technologies
-
-Setup
-Development
-Deployment
-
-Interface
-Messages
-Settings
-Conversation
-
-Service
-Storage
-
-Authors
-Contributing
-License
-Security
+| Section      | Topic               |
+|--------------|---------------------|
+| Summary      | [About](#about)     |
+| Summary      | [Version](#version) |
+| Technologies | [Setup](#version)   |
+| Setup        | [Version](#version) |
+| Setup        | [Version](#version) |
+| Interface    | [Version](#version) |
+| Interface    | [Version](#version) |
+| Interface    | [Version](#version) |
+| Service      | [Version](#version) |
+| Authors      | [Version](#version) |
+| Contributing | [Version](#version) |
+| License      | [Version](#version) |
+| Security     | [Version](#version) |
 
 ![Technologies](./.github/readme/technologies.svg)
 ![Icons](./.github/readme/icons.svg)
@@ -108,9 +102,15 @@ to a known good state.
 ![Authors](./.github/readme/authors.svg)
 
 <p align="center">
-    <img src="./.github/readme/botprzemek.svg" alt="botprzemek" width="32%" align="left"/>
-    <img src="./.github/readme/braspi.svg" alt="Braspi" width="32%" align="center"/>
-    <img src="./.github/readme/ponurakk.svg" alt="ponurakk" width="32%" align="right"/>
+    <a href="https://github.com/botprzemek">
+        <img src="./.github/readme/botprzemek.svg" alt="botprzemek" width="32%" align="left"/>
+    </a>
+    <a href="https://github.com/Braspi">
+        <img src="./.github/readme/braspi.svg" alt="Braspi" width="32%" align="center"/>
+    </a>
+    <a href="https://github.com/ponurakk">    
+        <img src="./.github/readme/ponurakk.svg" alt="ponurakk" width="32%" align="right"/>
+    </a>
 </p>
 
 Responsible for design and Frontend are Jeremiasz and Przemek 🌐, while Maks handles the backend. 🖥️
