@@ -107,9 +107,11 @@ to a known good state.
 
 ![Authors](./.github/readme/authors.svg)
 
-<img src="./.github/readme/botprzemek.svg" alt="botprzemek" width="28%" align="left"/>
-<img src="./.github/readme/braspi.svg" alt="Braspi" width="28%" align="left"/>
-<img src="./.github/readme/ponurakk.svg" alt="ponurakk" width="28%" align="left"/>
+<p align="center">
+    <img src="./.github/readme/botprzemek.svg" alt="botprzemek" width="31%" align="left"/>
+    <img src="./.github/readme/braspi.svg" alt="Braspi" width="31%" align="center"/>
+    <img src="./.github/readme/ponurakk.svg" alt="ponurakk" width="31%" align="right"/>
+</p>
 
 Responsible for design and Frontend are Jeremiasz and Przemek 🌐, while Maks handles the backend. 🖥️
 
