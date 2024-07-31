@@ -1,11 +1,41 @@
 ![BLINK](./.github/readme/heading.svg)
 
+# BLINK
+
 The Blink project aims to leverage web3 technology and provide easy access and communication with people around the
 world 🗺️.
 
-about
-version
-state
+> [!Caution]
+> <span id="status">Project is still work in progress</span>
+
+## About
+
+## Version
+
+![Navigation](./.github/readme/navigation.svg)
+
+Summary
+About
+Version
+
+Technologies
+
+Setup
+Development
+Deployment
+
+Interface
+Messages
+Settings
+Conversation
+
+Service
+Storage
+
+Authors
+Contributing
+License
+Security
 
 ![Technologies](./.github/readme/technologies.svg)
 ![Icons](./.github/readme/icons.svg)
@@ -19,26 +49,9 @@ Docker for deployment our project is ready to launch at any time!
 
 ![Project setup](./.github/readme/setup.svg)
 
-development
-deployment
+## Development
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and
-disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for
-type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the
-TypeScript language service aware of `.vue` types.
-
-> [!Caution]
-> <span id="status">Project is still work in progress</span>
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## Deployment
 
 ```sh
 npm install
@@ -70,23 +83,23 @@ npm run lint
 
 ![Interface](./.github/readme/interface.svg)
 
-messages
+## Messages
 
 This section provides features to search for users 👥, view currently online users, and browse through recent open
 chats.🧑‍💻
 
-settings
+## Settings
 
 This option enables users to personalize 🎨 the application's appearance and behavior to suit their daily usage
 preferences ⚙️ and needs.
 
-conversation
+## Conversation
 
 Here, the entire application process takes place, including the exchange of messages📱, photos 📷, and voice recordings🎙.
 
 ![Service](./.github/readme/service.svg)
 
-storage
+## Storage
 
 Because blockchain is immutable by default we need to ensure data integrity during contract upgrades by using stable
 storage. This also allows to reliably save data on the blockchain. Ensures that the contract can always be brought back
@@ -94,20 +107,28 @@ to a known good state.
 
 ![Authors](./.github/readme/authors.svg)
 
-![botprzemek](./.github/readme/botprzemek.svg)
-![Braspi](./.github/readme/braspi.svg)
-![ponurakk](./.github/readme/ponurakk.svg)
+<img src="./.github/readme/botprzemek.svg" alt="botprzemek" width="32.8%"/>
+<img src="./.github/readme/braspi.svg" alt="Braspi" width="32.8%"/>
+<img src="./.github/readme/ponurakk.svg" alt="ponurakk" width="32.8%"/>
 
 Responsible for design and Frontend are Jeremiasz and Przemek 🌐, while Maks handles the backend. 🖥️
 
 ![Contributing](./.github/readme/contributing.svg)
 
-See CONTRIBUTING.md
+I would like to join this list. How can I help the project?
+
+I'm currently looking for contributions for the following:
+
+    Bug fixes
+    Refactors
+    Configs improvements
+    Ideas (even if we already have a ton to implement)
 
 ![License](./.github/readme/license.svg)
 
-Apache 2.0
+This project is licensed under the Apache License, Version 2.0. Key points are: permissions and conditions of usage. For
+more detailed information, please refer to the [LICENSE file](./LICENSE).
 
 ![Security](./.github/readme/security.svg)
 
-This template should help get you started developing with Vue 3 in Vite.
+See SECURITY.md
