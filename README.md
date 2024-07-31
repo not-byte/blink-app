@@ -103,13 +103,13 @@ to a known good state.
 
 <p align="center">
     <a href="https://github.com/botprzemek">
-        <img src="./.github/readme/botprzemek.svg" alt="botprzemek" width="32%" align="left"/>
+        <img src="./.github/readme/botprzemek.svg" alt="botprzemek" width="31%" align="left"/>
     </a>
     <a href="https://github.com/Braspi">
-        <img src="./.github/readme/braspi.svg" alt="Braspi" width="32%" align="center"/>
+        <img src="./.github/readme/braspi.svg" alt="Braspi" width="31%" align="center"/>
     </a>
     <a href="https://github.com/ponurakk">    
-        <img src="./.github/readme/ponurakk.svg" alt="ponurakk" width="32%" align="right"/>
+        <img src="./.github/readme/ponurakk.svg" alt="ponurakk" width="31%" align="right"/>
     </a>
 </p>
 
