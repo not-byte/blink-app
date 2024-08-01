@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
     <header class="w-full">
-        <h3>
+        <h3 class="text-4xl font-semibold">
             {{ title }}
         </h3>
     </header>

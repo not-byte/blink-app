@@ -1,14 +1,33 @@
 <script lang="ts" setup>
-import NavigationBar from "@/components/navigation/NavigationBar.vue";
-
-import { RouterView } from "vue-router";
+import NavigationComponent from "@/components/NavigationComponent.vue";
+import { RouterView, useRoute } from "vue-router";
 </script>
 
 <template>
-    <main
-        class="relative aspect-[5/10] w-[28rem] 3xl:aspect-[4/9] flex flex-col items-center gap-6 p-9 rounded-3xl overflow-hidden bg-background bg-center bg-cover border border-white/10"
+    <TransitionGroup
+        class="relative w-[28rem] h-[58rem] 3xl:h-[63rem] aspect-[4/9] p-9 rounded-3xl overflow-clip bg-base bg-center bg-cover border border-white/10"
+        tag="main"
     >
-        <RouterView />
-        <NavigationBar />
-    </main>
+        <RouterView key="view" />
+        <NavigationComponent
+            v-if="useRoute().fullPath !== `/`"
+            key="navigation"
+        />
+    </TransitionGroup>
 </template>
+
+<style>
+.v-enter-active,
+.v-leave-active {
+    transition: opacity 700ms ease-in-out;
+}
+
+.v-enter-active {
+    transition-delay: 350ms;
+}
+
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
+}
+</style>

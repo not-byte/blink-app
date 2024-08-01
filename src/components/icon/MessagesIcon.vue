@@ -1,9 +1,10 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import BaseIcon from "@/components/icon/BaseIcon.vue";
+import { useRoute } from "vue-router";
 </script>
 
 <template>
-    <BaseIcon :active="true">
+    <BaseIcon :active="useRoute().name === `Messages`">
         <path
             d="M15.8333 20.0001C19.51 20.0001 22.5 17.0101 22.5 13.3334C22.5 9.65675 19.51 6.66675 15.8333 6.66675C12.1566 6.66675 9.16665 9.65675 9.16665 13.3334C9.16665 17.0101 12.1566 20.0001 15.8333 20.0001ZM18.3333 21.6667H13.3333C7.81831 21.6667 3.33331 26.1517 3.33331 31.6667V33.3334H28.3333V31.6667C28.3333 26.1517 23.8483 21.6667 18.3333 21.6667Z"
         />

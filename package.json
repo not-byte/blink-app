@@ -24,8 +24,15 @@
   "homepage": "https://github.com/not-byte/blink-app#readme",
   "keywords": [
     "blink",
-    "app",
-    "vuejs"
+    "blockchain",
+    "cdk",
+    "communicator",
+    "decentralized",
+    "dfinity",
+    "rust",
+    "tailwindcss",
+    "typescript",
+    "web3"
   ],
   "license": "Apache-2.0",
   "main": "./src",
@@ -45,5 +52,5 @@
     "test:unit": "vitest"
   },
   "type": "module",
-  "version": "1.0.0"
+  "version": "1.0.0-BETA"
 }
