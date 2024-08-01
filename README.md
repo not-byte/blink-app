@@ -10,9 +10,6 @@ communication with people around the world 🗺️ Written in [Rust
 and [TailwindCSS](https://github.com/tailwindlabs/tailwindcss) 🍃 with the [Dfinity
 CDK](https://github.com/dfinity/cdk-rs) for compiling.
 
-> [!Caution]
-> <span id="status">Project is still work in progress</span>
-
 ### About
 
 The goal is to create innovative solutions in digital services, data security, scalability, and
@@ -40,7 +37,12 @@ data from RPC nodes. The only limitation is your hardware._
 
 ### Version
 
-First release 1.0.0-BETA (Still a work in progress)
+First release 1.0.0-BETA
+
+> [!Caution]
+> Project is still under a development
+
+If you encounter any bugs or errors, create an issue and head to the [Security section](#security)
 
 <p id="navigation"></p>
 
