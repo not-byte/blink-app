@@ -37,7 +37,7 @@ const settings = {
 </script>
 
 <template>
-    <HeaderModule title="Settings" />
+    <HeaderModule title="Settings" class="py-2" />
     <SearchBarModule />
     <h1 class="w-full text-2xl text-center font-semibold">
         ⚠️ Feature disabled ⚠️

@@ -20,9 +20,9 @@ import MessagesIcon from "@/components/icon/MessagesIcon.vue";
                 </RouterLink>
             </li>
             <li class="p-4">
-                <!--                <RouterLink to="/settings">-->
-                <SettingsIcon />
-                <!--                </RouterLink>-->
+                <RouterLink to="/settings">
+                    <SettingsIcon />
+                </RouterLink>
             </li>
         </ul>
     </aside>
