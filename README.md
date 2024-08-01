@@ -90,7 +90,7 @@ dfx deploy
 
 ![Interface](./.github/readme/interface.svg)
 
-### [Messages](./src/views/MessagesView.vue)
+### [Messages](./src/views/ChatsView.vue)
 
 This section provides features to search for users, view currently online users, and browse through recent open
 chats.

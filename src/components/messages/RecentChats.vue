@@ -44,10 +44,10 @@ const users = [
         class="flex flex-col gap-5 rounded-xl overflow-y-scroll no-scrollbar"
     >
         <article class="grid gap-3">
-            <router-link
+            <RouterLink
                 v-for="user in users"
                 :key="user.fullname"
-                :to="`/messages/${user.fullname}`"
+                :to="`/chat/${user.fullname}`"
                 class="w-full h-fit flex gap-3"
             >
                 <img :src="user.avatar" alt="" class="h-14 aspect-square" />
@@ -58,7 +58,7 @@ const users = [
                 <section class="h-full flex">
                     <p>{{ user.sent }}</p>
                 </section>
-            </router-link>
+            </RouterLink>
         </article>
     </section>
 </template>

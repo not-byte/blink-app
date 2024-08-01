@@ -15,12 +15,12 @@ const router = createRouter({
             component: () => import("@/views/DiscoverView.vue"),
         },
         {
-            path: "/messages",
+            path: "/chat",
             name: "Messages",
-            component: () => import("@/views/MessagesView.vue"),
+            component: () => import("@/views/ChatsView.vue"),
         },
         {
-            path: "/messages/:reciever_id",
+            path: "/chat/:reciever_id",
             name: "Chat with user",
             component: () => import("@/views/ChatView.vue"),
         },

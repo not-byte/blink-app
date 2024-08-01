@@ -14,7 +14,7 @@ import HeaderComponent from "@/components/HeaderComponent.vue";
         </section>
         <router-link
             class="w-full h-fit px-5 py-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl text-center"
-            to="/messages"
+            to="/chat"
         >
             Join now
         </router-link>

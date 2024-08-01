@@ -1,17 +1,19 @@
 <script lang="ts" setup>
-import { RouterView } from "vue-router";
+import NavigationComponent from "@/components/NavigationComponent.vue";
+import { RouterView, useRoute } from "vue-router";
 </script>
 
 <template>
-    <main
+    <TransitionGroup
         class="relative w-[28rem] h-[63rem] aspect-[4/9] p-9 rounded-3xl overflow-clip bg-base bg-center bg-cover border border-white/10"
+        tag="main"
     >
-        <router-view v-slot="{ Component }">
-            <transition mode="out-in">
-                <component :is="Component" />
-            </transition>
-        </router-view>
-    </main>
+        <RouterView key="view" />
+        <NavigationComponent
+            v-if="useRoute().fullPath !== `/`"
+            key="navigation"
+        />
+    </TransitionGroup>
 </template>
 
 <style>

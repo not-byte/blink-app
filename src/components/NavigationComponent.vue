@@ -15,7 +15,7 @@ import MessagesIcon from "@/components/icon/MessagesIcon.vue";
                 <!--                </RouterLink>-->
             </li>
             <li class="p-4">
-                <RouterLink to="/messages">
+                <RouterLink to="/chat">
                     <MessagesIcon />
                 </RouterLink>
             </li>
