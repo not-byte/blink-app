@@ -97,9 +97,6 @@ chats.
 
 Here, the entire application process takes place, including the exchange of messages and images.
 
-> [!WARNING]
-> Work-in-progress Feature
-
 ### Discover
 
 This section allows users to find new people that want to communicate.
@@ -111,6 +108,9 @@ This section allows users to find new people that want to communicate.
 
 This option enables users to personalize the application's appearance and behavior to suit their daily usage
 preferences and needs.
+
+> [!WARNING]
+> Work-in-progress Feature
 
 <p id="service"></p>
 
@@ -166,7 +166,6 @@ To learn more about project versions see [SECURITY.md](./SECURITY.md)
 
 
 <p align="center">
-
-> > Thanks for reaching the bottom! [Go back to the top](#navigation)
-
+    Thanks for reaching the bottom!
+    <a href="#navigation">Go back to the top</a>
 </p>
