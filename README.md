@@ -9,9 +9,41 @@ CDK for compiling.
 > [!Caution]
 > <span id="status">Project is still work in progress</span>
 
-## About
+### About
 
-## Version
+We are beginning the practical phase of our On-Chain Bootcamp, which involves deploying canisters, or smart contracts,
+on the ICP blockchain. The goal is to create innovative solutions in digital services, data security, scalability, and
+interoperability.
+
+### Topics
+
+- Innovative solutions for finance, education, healthcare, and government services
+- Solutions ensuring user data protection using ICP features
+- Applications supporting large user volumes thanks to ICP's scalability
+- Solutions facilitating the use of various digital services
+- Original ideas and solutions based on ICP
+
+We have chosen to create a DApp with a communication system.
+
+### Requirements
+
+- A public project on GitHub with complete code
+- A detailed project description in the README file
+- A short presentation of the idea (maximum 3 minutes)
+
+Your challenge is to develop a canister on the Internet Computer that addresses one or more problems described in the
+contest project. You can choose the topic based on your interests and skills.
+
+Build a Layer 2 application for Bitcoin and/or Ethereum using ICP functionalities to provide solutions beneficial to the
+Bitcoin and Ethereum ecosystems in Europe. This could include innovative financial services, cross-border transactions,
+secure storage solutions, or applications that interact with other blockchains using Chain-key signatures and retrieve
+data from RPC nodes.
+
+The only limitation is your hardware.
+
+### Version
+
+First release 1.0.0-BETA (Still a work in progress)
 
 ![Navigation](./.github/readme/navigation.svg)
 
@@ -31,6 +63,14 @@ CDK for compiling.
 | License      | [Version](#version) |
 | Security     | [Version](#version) |
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ![Technologies](./.github/readme/technologies.svg)
 ![Icons](./.github/readme/icons.svg)
 
@@ -43,9 +83,9 @@ Docker for deployment our project is ready to launch at any time!
 
 ![Project setup](./.github/readme/setup.svg)
 
-## Development
+### Development
 
-## Deployment
+### Deployment
 
 ```sh
 npm install
@@ -77,23 +117,23 @@ npm run lint
 
 ![Interface](./.github/readme/interface.svg)
 
-## Messages
+### Messages
 
 This section provides features to search for users 👥, view currently online users, and browse through recent open
 chats.🧑‍💻
 
-## Settings
+### Settings
 
 This option enables users to personalize 🎨 the application's appearance and behavior to suit their daily usage
 preferences ⚙️ and needs.
 
-## Conversation
+### Conversation
 
 Here, the entire application process takes place, including the exchange of messages📱, photos 📷, and voice recordings🎙.
 
 ![Service](./.github/readme/service.svg)
 
-## Storage
+### Storage
 
 Because blockchain is immutable by default we need to ensure data integrity during contract upgrades by using stable
 storage. This also allows to reliably save data on the blockchain. Ensures that the contract can always be brought back
