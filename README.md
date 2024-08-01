@@ -90,23 +90,23 @@ dfx deploy
 
 ![Interface](./.github/readme/interface.svg)
 
-### Messages
+### [Messages](./src/views/MessagesView.vue)
 
 This section provides features to search for users, view currently online users, and browse through recent open
 chats.
 
-### Conversation
+### [Chat](./src/views/ChatView.vue)
 
 Here, the entire application process takes place, including the exchange of messages and images.
 
-### Discover
+### [Discover](./src/views/DiscoverView.vue)
 
 This section allows users to find new people that want to communicate.
 
 > [!WARNING]
 > Work-in-progress Feature
 
-### Settings
+### [Settings](./src/views/SettingsView.vue)
 
 This option enables users to personalize the application's appearance and behavior to suit their daily usage
 preferences and needs.
