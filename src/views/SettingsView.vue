@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import HeaderModule from "@/components/module/HeaderComponent.vue";
-import SearchBarModule from "@/components/module/SearchComponent.vue";
-import Setting from "@/components/module/settings/Setting.vue";
+import HeaderModule from "@/components/HeaderComponent.vue";
+import SearchBarModule from "@/components/SearchComponent.vue";
+import Setting from "@/components/settings/Setting.vue";
 
 const settings = {
     general: {

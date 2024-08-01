@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import HeaderModule from "@/components/module/HeaderComponent.vue";
-import SearchBarModule from "@/components/module/SearchComponent.vue";
+import HeaderModule from "@/components/HeaderComponent.vue";
+import SearchBarModule from "@/components/SearchComponent.vue";
 </script>
 
 <template>

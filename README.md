@@ -2,74 +2,63 @@
 
 # BLINK
 
-The Blink project 👀 is a Decentralized Communicator, that aims to leverage WEB3 technology and provide easy access and
-communication with people around the world 🗺️ Written in Rust 🦀, Vue.js+TS, Pinia 🍍 and TailwindCSS 🍃 with the Dfinity
-CDK for compiling.
+The Blink project 👀 is a Decentralized Communicator, that aims to leverage [WEB3 technology](#web3) and provide easy
+access and
+communication with people around the world 🗺️ Written in [Rust
+🦀](https://github.com/rust-lang/rust), [Vue.js+TS](https://github.com/vuejs/core), [Pinia](https://github.com/vuejs/pinia)
+🍍
+and [TailwindCSS](https://github.com/tailwindlabs/tailwindcss) 🍃 with the [Dfinity
+CDK](https://github.com/dfinity/cdk-rs) for compiling.
 
 > [!Caution]
 > <span id="status">Project is still work in progress</span>
 
 ### About
 
-We are beginning the practical phase of our On-Chain Bootcamp, which involves deploying canisters, or smart contracts,
-on the ICP blockchain. The goal is to create innovative solutions in digital services, data security, scalability, and
+The goal is to create innovative solutions in digital services, data security, scalability, and
 interoperability.
 
-### Topics
+<p id="web3"></p>
+Web3 is an idea for a new iteration of the World Wide Web which incorporates concepts
+such as decentralization, blockchain technologies, and token-based economics.
 
-- Innovative solutions for finance, education, healthcare, and government services
-- Solutions ensuring user data protection using ICP features
-- Applications supporting large user volumes thanks to ICP's scalability
-- Solutions facilitating the use of various digital services
-- Original ideas and solutions based on ICP
+Our challenge is to develop a canister on the Internet Computer that addresses one or more problems
+described in the
+contest project. We have chosen to create a DApp with a communication system.
 
-We have chosen to create a DApp with a communication system.
+### Requirements (Met!)
 
-### Requirements
+- [x] A public project on GitHub with complete code
+- [x] A detailed project description in the README file
+- [x] A short presentation of the idea (maximum 3 minutes)
 
-- A public project on GitHub with complete code
-- A detailed project description in the README file
-- A short presentation of the idea (maximum 3 minutes)
-
-Your challenge is to develop a canister on the Internet Computer that addresses one or more problems described in the
-contest project. You can choose the topic based on your interests and skills.
-
-Build a Layer 2 application for Bitcoin and/or Ethereum using ICP functionalities to provide solutions beneficial to the
+> _Build a Layer 2 application for Bitcoin and/or Ethereum using ICP functionalities to provide solutions beneficial to
+the
 Bitcoin and Ethereum ecosystems in Europe. This could include innovative financial services, cross-border transactions,
 secure storage solutions, or applications that interact with other blockchains using Chain-key signatures and retrieve
-data from RPC nodes.
-
-The only limitation is your hardware.
+data from RPC nodes. The only limitation is your hardware._
 
 ### Version
 
 First release 1.0.0-BETA (Still a work in progress)
 
+<p id="navigation"></p>
+
 ![Navigation](./.github/readme/navigation.svg)
 
-| Section      | Topic               |
-|--------------|---------------------|
-| Summary      | [About](#about)     |
-| Summary      | [Version](#version) |
-| Technologies | [Setup](#version)   |
-| Setup        | [Version](#version) |
-| Setup        | [Version](#version) |
-| Interface    | [Version](#version) |
-| Interface    | [Version](#version) |
-| Interface    | [Version](#version) |
-| Service      | [Version](#version) |
-| Authors      | [Version](#version) |
-| Contributing | [Version](#version) |
-| License      | [Version](#version) |
-| Security     | [Version](#version) |
+| Section      | Topic                                                        |
+|--------------|--------------------------------------------------------------|
+| Summary      | [Short summary of the project](#blink)                       |
+| Technologies | [What we've used](#technologies)                             |
+| Setup        | [How to host one yourself](#setup)                           |
+| Interface    | [Navigation inside the App](#interface)                      |
+| Service      | [What's happening under the hood?](#service)                 |
+| Authors      | [See who created this masterpiece](#authors)                 |
+| Contributing | [Join us and create a better user experience](#contributing) |
+| License      | [Want to use our codebase for work?](#license)               |
+| Security     | [Learn more about our code vulnerabilities](#security)       |
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+<p id="technologies"></p>
 
 ![Technologies](./.github/readme/technologies.svg)
 ![Icons](./.github/readme/icons.svg)
@@ -79,41 +68,23 @@ computing.
 
 In creating interface **TypeScript** and **Vue.js** helped us the most, with addition of TailwindCSS for styling and
 Vite,
-Docker for deployment our project is ready to launch at any time!
+Docker for deployment, so we can launch our project to at any time!
+
+<p id="setup"></p>
 
 ![Project setup](./.github/readme/setup.svg)
-
-### Development
 
 ### Deployment
 
 ```sh
-npm install
+dfx start
 ```
-
-### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+dfx deploy
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+<p id="interface"></p>
 
 ![Interface](./.github/readme/interface.svg)
 
@@ -122,14 +93,20 @@ npm run lint
 This section provides features to search for users 👥, view currently online users, and browse through recent open
 chats.🧑‍💻
 
-### Settings
+### Conversation
+
+Here, the entire application process takes place, including the exchange of messages and images.
+
+### Discover (Work-in-progress Feature)
+
+This section allows users to find new people that want to communicate.
+
+### Settings (Work-in-progress Feature)
 
 This option enables users to personalize 🎨 the application's appearance and behavior to suit their daily usage
 preferences ⚙️ and needs.
 
-### Conversation
-
-Here, the entire application process takes place, including the exchange of messages📱, photos 📷, and voice recordings🎙.
+<p id="service"></p>
 
 ![Service](./.github/readme/service.svg)
 
@@ -138,6 +115,8 @@ Here, the entire application process takes place, including the exchange of mess
 Because blockchain is immutable by default we need to ensure data integrity during contract upgrades by using stable
 storage. This also allows to reliably save data on the blockchain. Ensures that the contract can always be brought back
 to a known good state.
+
+<p id="authors"></p>
 
 ![Authors](./.github/readme/authors.svg)
 
@@ -155,6 +134,8 @@ to a known good state.
 
 Responsible for design and Frontend are Jeremiasz and Przemek 🌐, while Maks handles the backend. 🖥️
 
+<p id="contributing"></p>
+
 ![Contributing](./.github/readme/contributing.svg)
 
 I would like to join this list. How can I help the project?
@@ -166,11 +147,17 @@ I'm currently looking for contributions for the following:
     Configs improvements
     Ideas (even if we already have a ton to implement)
 
+<p id="license"></p>
+
 ![License](./.github/readme/license.svg)
 
 This project is licensed under the Apache License, Version 2.0. Key points are: permissions and conditions of usage. For
-more detailed information, please refer to the [LICENSE file](./LICENSE).
+more detailed information, please refer to the [LICENSE file](./LICENSE)
+
+<p id="security"></p>
 
 ![Security](./.github/readme/security.svg)
 
-See SECURITY.md
+To learn more about project versions see [SECURITY.md](./SECURITY.md)
+
+#### Thanks for reaching the bottom! [Go back to the top](#navigation)
