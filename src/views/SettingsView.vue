@@ -38,7 +38,7 @@ const settings = {
 
 <template>
     <HeaderModule title="Settings" class="py-2" />
-    <SearchBarModule />
+    <SearchBarModule class="my-4" />
     <h1 class="w-full text-2xl text-center font-semibold">
         ⚠️ Feature disabled ⚠️
     </h1>
