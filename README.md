@@ -90,21 +90,27 @@ dfx deploy
 
 ### Messages
 
-This section provides features to search for users 👥, view currently online users, and browse through recent open
-chats.🧑‍💻
+This section provides features to search for users, view currently online users, and browse through recent open
+chats.
 
 ### Conversation
 
 Here, the entire application process takes place, including the exchange of messages and images.
 
-### Discover (Work-in-progress Feature)
+> [!WARNING]
+> Work-in-progress Feature
+
+### Discover
 
 This section allows users to find new people that want to communicate.
 
-### Settings (Work-in-progress Feature)
+> [!WARNING]
+> Work-in-progress Feature
 
-This option enables users to personalize 🎨 the application's appearance and behavior to suit their daily usage
-preferences ⚙️ and needs.
+### Settings
+
+This option enables users to personalize the application's appearance and behavior to suit their daily usage
+preferences and needs.
 
 <p id="service"></p>
 
@@ -132,20 +138,18 @@ to a known good state.
     </a>
 </p>
 
-Responsible for design and Frontend are Jeremiasz and Przemek 🌐, while Maks handles the backend. 🖥️
-
 <p id="contributing"></p>
 
 ![Contributing](./.github/readme/contributing.svg)
 
-I would like to join this list. How can I help the project?
+> I would like to join this list. How can I help the project?
 
-I'm currently looking for contributions for the following:
+We're currently looking for contributions for the following:
 
-    Bug fixes
-    Refactors
-    Configs improvements
-    Ideas (even if we already have a ton to implement)
+1. Bug fixes and penetration
+2. Refactors
+3. Configs improvements
+4. Ideas (even if we already have a ton to implement)
 
 <p id="license"></p>
 
@@ -160,4 +164,9 @@ more detailed information, please refer to the [LICENSE file](./LICENSE)
 
 To learn more about project versions see [SECURITY.md](./SECURITY.md)
 
-#### Thanks for reaching the bottom! [Go back to the top](#navigation)
+
+<p align="center">
+
+> > Thanks for reaching the bottom! [Go back to the top](#navigation)
+
+</p>
