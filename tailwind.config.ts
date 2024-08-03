@@ -13,9 +13,6 @@ export default {
                 "rasin-black": "hsla(240, 7%, 13%, 1)",
                 "slate-blue": "hsla(266, 100%, 72%, 1)",
             },
-            // background: {
-            //     base: "rgb(0,0,0,0)",
-            // },
             backgroundImage: {
                 base: 'url("../image/background.svg")',
             },

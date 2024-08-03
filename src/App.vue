@@ -5,7 +5,7 @@ import { RouterView, useRoute } from "vue-router";
 
 <template>
     <TransitionGroup
-        class="relative w-[28rem] h-[58rem] 3xl:h-[63rem] aspect-[4/9] p-9 rounded-3xl overflow-clip bg-base bg-center bg-cover border border-white/10"
+        class="relative w-[100dvw] h-[100dvh] lg:w-[28rem] lg:h-[58rem] lg:aspect-[4/9] lg:rounded-3xl p-9 overflow-clip bg-base bg-center bg-cover border-0 lg:border border-smoke/10"
         tag="main"
     >
         <RouterView key="view" />

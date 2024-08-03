@@ -35,14 +35,16 @@ const users = [
 
 <template>
     <section class="flex flex-col gap-3">
-        <h2 class="text-2xl font-semibold">Online</h2>
-        <aside class="flex gap-3 overflow-x-hidden no-scrollbar">
+        <h2 class="text-[4rem] lg:text-2xl font-semibold">Online</h2>
+        <aside
+            class="flex gap-8 lg:gap-[0.85rem] overflow-x-hidden no-scrollbar"
+        >
             <img
                 v-for="user in users"
                 :key="user.avatar"
                 :alt="user.avatar"
                 :src="user.avatar"
-                class="w-[64px] h-[64px] rounded-2xl border border-white border-opacity-5"
+                class="h-[9.6rem] lg:h-16 aspect-square rounded-[3rem] lg:rounded-2xl border-2 lg:border border-smoke/10"
             />
         </aside>
     </section>

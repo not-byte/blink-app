@@ -18,8 +18,8 @@ const switchActive = (): boolean => {
     <svg
         :class="
             active
-                ? 'fill-slate-blue cursor-pointer'
-                : 'fill-white transition-all cursor-pointer'
+                ? 'w-24 h-24 lg:w-10 lg:h-10 fill-slate-blue'
+                : 'w-24 h-24 lg:w-10 lg:h-10 fill-white transition-all cursor-pointer'
         "
         height="40"
         viewBox="0 0 40 40"
