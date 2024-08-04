@@ -37,7 +37,7 @@ const users = [
     <section class="flex flex-col gap-3">
         <h2 class="text-[4rem] lg:text-2xl font-semibold">Online</h2>
         <aside
-            class="flex gap-8 lg:gap-[0.85rem] overflow-x-hidden no-scrollbar"
+            class="flex gap-8 lg:gap-[0.85rem] rounded-xl overflow-x-scroll no-scrollbar"
         >
             <img
                 v-for="user in users"

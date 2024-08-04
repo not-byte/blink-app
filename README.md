@@ -31,12 +31,6 @@ contest project. We have chosen to create a DApp with a communication system.
 - [x] A detailed project description in the README file
 - [x] A short presentation of the idea (maximum 3 minutes)
 
-> _Build a Layer 2 application for Bitcoin and/or Ethereum using ICP functionalities to provide solutions beneficial to
-the
-Bitcoin and Ethereum ecosystems in Europe. This could include innovative financial services, cross-border transactions,
-secure storage solutions, or applications that interact with other blockchains using Chain-key signatures and retrieve
-data from RPC nodes. The only limitation is your hardware._
-
 ### Version
 
 First release 1.0.0-BETA
@@ -53,7 +47,7 @@ If you encounter any bugs or errors, create an issue and head to the [Security s
 | Section      | Topic                                                        |
 |--------------|--------------------------------------------------------------|
 | Summary      | [Short summary of the project](#blink)                       |
-| Technologies | [How to use it?](#features)                                  |
+| Features     | [How to use it?](#features)                                  |
 | Technologies | [What we've used](#technologies)                             |
 | Setup        | [How to host one yourself](#setup)                           |
 | Interface    | [Navigation inside the App](#interface)                      |
@@ -65,7 +59,29 @@ If you encounter any bugs or errors, create an issue and head to the [Security s
 
 <p id="features"></p>
 
-![Technologies](./.github/readme/features.svg)
+![Features](./.github/readme/features.svg)
+
+### How to use it?
+
+Simply navigate to [BLINK](https://blink.notbyte.com), create a blockchain identity, and you're done! Sending messages
+is as easy as in any other communicator like Messenger or WhatsApp!
+
+### Secure Messaging
+
+Send and receive encrypted messages ensuring your communication is private and secure.
+
+### Decentralized System
+
+Built on the ICP blockchain to ensure secure and reliable communication. Utilizes smart contracts (canisters) for
+seamless operation.
+
+### User-Friendly UI
+
+Intuitive and easy-to-use interface for seamless user experience.
+
+### Open Source
+
+Project is available on GitHub with full source code for transparency and community collab.
 
 <p id="technologies"></p>
 
@@ -83,11 +99,19 @@ Docker for deployment, so we can launch our project to at any time!
 
 ![Project setup](./.github/readme/setup.svg)
 
-### Deployment
+### Development
+
+To start a local canister execution environment and web server processes use `dfx start`, that enables
+you to deploy canisters to the local canister execution environment to test your DApps during development.
 
 ```sh
 dfx start
 ```
+
+### Deployment
+
+Use the dfx deploy command to register, build, and deploy a dapp on the local canister execution environment, on the IC
+or on a specified testnet. By default, all canisters defined in the project `dfx.json` configuration file are deployed.
 
 ```sh
 dfx deploy
@@ -124,6 +148,8 @@ preferences and needs.
 <p id="service"></p>
 
 ![Service](./.github/readme/service.svg)
+
+![License](./.github/readme/workflow.svg)
 
 ### Storage
 
