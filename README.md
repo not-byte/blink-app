@@ -10,6 +10,8 @@ communication with people around the world 🗺️ Written in [Rust
 and [TailwindCSS](https://github.com/tailwindlabs/tailwindcss) 🍃 with the [Dfinity
 CDK](https://github.com/dfinity/cdk-rs) for compiling.
 
+<img id="mockup" src="./.github/readme/mockup.png" width="100%" align="center" alt="Mockup of Interface"/>
+
 ### About
 
 The goal is to create innovative solutions in digital services, data security, scalability, and
@@ -51,6 +53,7 @@ If you encounter any bugs or errors, create an issue and head to the [Security s
 | Section      | Topic                                                        |
 |--------------|--------------------------------------------------------------|
 | Summary      | [Short summary of the project](#blink)                       |
+| Technologies | [How to use it?](#features)                                  |
 | Technologies | [What we've used](#technologies)                             |
 | Setup        | [How to host one yourself](#setup)                           |
 | Interface    | [Navigation inside the App](#interface)                      |
@@ -59,6 +62,10 @@ If you encounter any bugs or errors, create an issue and head to the [Security s
 | Contributing | [Join us and create a better user experience](#contributing) |
 | License      | [Want to use our codebase for work?](#license)               |
 | Security     | [Learn more about our code vulnerabilities](#security)       |
+
+<p id="features"></p>
+
+![Technologies](./.github/readme/features.svg)
 
 <p id="technologies"></p>
 
